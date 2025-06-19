@@ -16,3 +16,7 @@
    - Links
    - Address
    - Contact
+
+# Props
+
+- passing a prop to a functional component is like same as passing an argument to a function.
