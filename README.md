@@ -20,3 +20,7 @@
 # Props
 
 - passing a prop to a functional component is like same as passing an argument to a function.
+
+# Q. why react is fast?
+
+- Virtual Dom is not making it fast. React fiber the new reconciliation algorithm which finds out the difference between two virtual dom and updates the dom only when required.
