@@ -1,3 +1,86 @@
-.heading {
-  color: purple;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+.nav-items {
+  padding: 0 20px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.login {
+  padding: 10px 20px;
+}
+
+.body {
+  margin: 10px 0;
+}
+
+.search-container {
+  padding: 10px;
+}
+
+.res-card {
+  width: 250px;
+  height: 500px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.res-logo {
+  width: 250px;
+  height: 250px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  cursor: pointer;
+}
+
+.footer {
+  margin: 10px 0;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  width: 250px;
+  height: 500px;
+  background-color: #f0f0f0;
+  margin: 10px;
+}
+
+.search {
+  margin-right: 10px;
+}
+
+.filter {
+  display: flex;
 }
