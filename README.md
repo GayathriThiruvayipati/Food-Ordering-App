@@ -24,3 +24,7 @@
 # Q. why react is fast?
 
 - Virtual Dom is not making it fast. React fiber the new reconciliation algorithm which finds out the difference between two virtual dom and updates the dom only when required.
+
+# CORS ISSUE
+
+- we can bypass cors issue by appending https://corsproxy.io/? at the beginning of our api.
